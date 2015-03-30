@@ -28,4 +28,4 @@ Options:
 | -q, --quiet, --silent    | Don't print file header              |
 | -v, --verbose            | Print file header                    |
 | -f, --follow             | Output extra lines as the file grows |
-| -s N, --sleep-interval N |                                      |
+| -s N, --sleep-interval N | Seconds to sleep between iterations  |
