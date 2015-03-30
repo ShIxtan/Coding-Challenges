@@ -21,9 +21,11 @@ prints the last 10 lines of each given file. To run:
 
 Options:
 
->-n K, --lines K             Outputs the last K lines
->-c K, --bytes K             Outputs the last K bytes
->-q, --quiet, --silent       Don't print file header
->-v, --verbose               Print file header
->-f, --follow                Output extra lines as the file grows
->-s N, --sleep-interval N    Sleep N seconds between iterations
+|                   Option | Description                          |
+|-------------------------:|--------------------------------------|
+| -n K, --lines K          | Outputs the last K lines             |
+| -c K, --bytes K          | Outputs the last K bytes             |
+| -q, --quiet, --silent    | Don't print file header              |
+| -v, --verbose            | Print file header                    |
+| -f, --follow             | Output extra lines as the file grows |
+| -s N, --sleep-interval N |                                      |
