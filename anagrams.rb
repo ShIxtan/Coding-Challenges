@@ -73,5 +73,6 @@ def done?(word)
 end
 
 if __FILE__ == $PROGRAM_NAME
-  puts get_anagrams("words.txt", ARGV[0])
+  filename = ARGV[1] ? ARGV[1] : "words.txt"
+  puts get_anagrams(filename, ARGV[0])
 end
