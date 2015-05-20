@@ -11,12 +11,12 @@ request.add_field 'Authorization', 'Bearer DEMO_TOKEN'
 
 response = http.request(request)
 
-x = JSON.parse(response.body)
+x = JSON.parse(response.body)["data"]
 
 sum = 0.0
 
-x["data"].each do |section|
+x.each do |section|
   sum += section["data"]["students"].count
 end
 
-puts sum / x["data"].count
+puts sum / x.count
